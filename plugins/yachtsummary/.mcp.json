@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "yachtsummary": {
+      "type": "http",
+      "url": "https://mcp.yachtsummary.com/mcp",
+      "oauth_resource": "https://mcp.yachtsummary.com/mcp",
+      "scopes": [
+        "ys.read",
+        "ys.procedures"
+      ],
+      "note": "Hosted YachtSummary Broker Copilot. Sign in through YachtSummary OAuth; do not place credentials in this repository."
+    }
+  }
+}
