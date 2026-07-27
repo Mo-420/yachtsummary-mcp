@@ -1,0 +1,21 @@
+{
+  "name": "yachtsummary-mcp-public",
+  "interface": {
+    "displayName": "YachtSummary MCP",
+    "description": "Public connector for the hosted YachtSummary Broker Copilot."
+  },
+  "plugins": [
+    {
+      "name": "yachtsummary",
+      "source": {
+        "source": "local",
+        "path": "./plugins/yachtsummary"
+      },
+      "policy": {
+        "installation": "INSTALLED_BY_DEFAULT",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
