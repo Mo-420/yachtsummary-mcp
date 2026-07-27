@@ -1,0 +1,39 @@
+{
+  "name": "yachtsummary",
+  "version": "0.1.0",
+  "description": "Public Codex connector for the hosted YachtSummary Broker Copilot MCP.",
+  "author": {
+    "name": "YachtSummary",
+    "url": "https://yachtsummary.com/"
+  },
+  "homepage": "https://mcp.yachtsummary.com/status",
+  "license": "MIT",
+  "keywords": [
+    "yachtsummary",
+    "mcp",
+    "broker-workflows",
+    "yacht-charter"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "YachtSummary Broker Copilot",
+    "shortDescription": "Broker workflows through YachtSummary",
+    "longDescription": "Connect Codex to the hosted YachtSummary MCP through broker-scoped OAuth. Review leads, workflows, bid opportunities, and conversations, or draft outreach. Changing actions remain permission- and confirmation-gated.",
+    "developerName": "YachtSummary",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://yachtsummary.com/",
+    "privacyPolicyURL": "https://mcp.yachtsummary.com/privacy",
+    "termsOfServiceURL": "https://mcp.yachtsummary.com/terms",
+    "defaultPrompt": [
+      "Show my available YachtSummary workflows.",
+      "Tell me which leads I should work first today without sending messages or placing bids.",
+      "Draft my next touch for a YachtSummary lead without sending it."
+    ],
+    "screenshots": []
+  }
+}
